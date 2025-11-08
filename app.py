@@ -289,7 +289,9 @@ st.markdown("""
 # -----------------------
 # 🔑 API KEY SETUP
 # -----------------------
-GEMINI_API_KEY = "AIzaSyAFoyOhJfrhvxfzzKhxrWi1udi5pTZGGG8"
+import os
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+
 
 # -----------------------
 # 💬 SYSTEM PROMPT

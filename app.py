@@ -104,7 +104,9 @@
 #     )
 
 # # --- Inline GEMINI API Key ---
-# GEMINI_API_KEY = "AIzaSyAFoyOhJfrhvxfzzKhxrWi1udi5pTZGGG8"  # 🔑 Replace with your real key
+import os
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+
 
 # # --- Gemini 2.5 Flash API Call ---
 # def get_kelly_response(user_prompt: str, chat_history: list) -> str:

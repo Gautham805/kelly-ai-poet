@@ -289,8 +289,7 @@ st.markdown("""
 # -----------------------
 # 🔑 API KEY SETUP
 # -----------------------
-import streamlit as st
-GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
+GEMINI_API_KEY = "AIzaSyAFoyOhJfrhvxfzzKhxrWi1udi5pTZGGG8"
 
 # -----------------------
 # 💬 SYSTEM PROMPT
